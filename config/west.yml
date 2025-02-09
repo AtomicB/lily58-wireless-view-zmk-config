@@ -3,13 +3,13 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: zmklocales_base 
-      url-base: https://github.com/joelspadin/zmk-locales
+      url-base: https://github.com/joelspadin
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmklocales
+    - name: zmk-locales
       remote: zmklocales_base 
       revision: main 
   self:
